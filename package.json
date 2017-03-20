@@ -1,0 +1,29 @@
+{
+  "name": "tasbook",
+  "version": "1.0.0",
+  "description": "Red social para colegios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chubaskin/TasBook.git"
+  },
+  "keywords": [
+    "facebook",
+    "tasone",
+    "Chubasco",
+    "red",
+    "social"
+  ],
+  "author": "Chubasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chubaskin/TasBook/issues"
+  },
+  "homepage": "https://github.com/Chubaskin/TasBook#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
