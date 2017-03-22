@@ -7,6 +7,9 @@
 var app = require('../app');
 var debug = require('debug')('tasbook:server');
 var http = require('http');
+var express = require('express');
+
+app.use('/tasone', express.static(__dirname + '/tmp/public_html/test/red_social_boostrap/') );
 
 /**
  * Get port from environment and store in Express.
@@ -86,5 +89,6 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+    debug('Listening on ' + bind);
+    console.log('Listening on ' + bind);
 }
